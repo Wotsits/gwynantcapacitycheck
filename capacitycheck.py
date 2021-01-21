@@ -45,7 +45,7 @@ dateslist = {}
 select = Select(driver.find_element_by_name("pid_sel"))
 select.select_by_value("9717")
 
-for i in range(4, 6, 1):
+for i in range(1, 13, 1):
 
     #selects the start of each month from the dropdown form and submits
     select = Select(driver.find_element_by_name("dst"))
